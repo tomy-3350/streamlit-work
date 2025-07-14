@@ -34,7 +34,7 @@ time5 = 0
 st.title('北青作業日報')
 st.caption("メーカー名、工番、作業内容、時間を入力してください。")
 st.text(dt.date())
-
+st.text("テスト")
 # 名前
 name = st.selectbox(
     '名前',
