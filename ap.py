@@ -1,11 +1,7 @@
 import streamlit as st
 import datetime
-import datetime
-
-import streamlit as st
 
 dt = datetime.datetime.today()
-day = dt.date()
 
 customer = '選択してください'
 genre = '選択してください'
@@ -37,7 +33,7 @@ time5 = 0
 # タイトル
 st.title('北青作業日報')
 st.caption("メーカー名、工番、作業内容、時間を入力してください。")
-st.text(day)
+st.text(dt.date())
 
 # 名前
 name = st.selectbox(
