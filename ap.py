@@ -1,7 +1,5 @@
 import streamlit as st
-import datetime
 
-from dateutil.utils import today
 
 customer = '選択してください'
 genre = '選択してください'
